@@ -263,5 +263,5 @@ def generate_weighted_result():
     return [random.choice(RESULT_ICONS) for _ in range(3)]
 
 
-
-client.run("MTI2MjAxMDg1NzgxNTI4MTc0NA.GW9sFX.lJi3LDbzHWbHrvnW6M8zzcHjpsQQl-jQa4p45Y")
+access_token == os.environ["BOT_TOKEN"]
+client.run(access_token)
